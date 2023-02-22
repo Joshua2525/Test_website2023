@@ -485,7 +485,7 @@ header.black nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .design_section .top_class .button_social .button-get-touch {
@@ -541,8 +541,8 @@ header.black nav {
 .design_section .top_class .button_social .icon:hover {
   -webkit-transform: translate(0, -10%) !important;
           transform: translate(0, -10%) !important;
-  -webkit-transition: all 0.50s;
-  transition: all 0.50s;
+  -webkit-transition: all 330ms ease-in;
+  transition: all 330ms ease-in;
 }
 
 .design_section .top_class .list {
@@ -594,6 +594,11 @@ header.black nav {
   margin-bottom: 30px;
 }
 
+.design_section .featured_projects .upper_text h2 {
+  font-size: 35px;
+  font-family: 'ClashGrotesk', sans-serif;
+}
+
 .design_section .featured_projects .upper_text .left-side {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -606,7 +611,7 @@ header.black nav {
 
 .design_section .featured_projects .upper_text .left-side a {
   text-decoration: none !important;
-  color: #ffffff;
+  color: #4b4b4b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -662,10 +667,10 @@ header.black nav {
 }
 
 .design_section .featured_projects .box-container .arrow_circle:hover {
-  -webkit-transition: all 0.50s;
-  transition: all 0.50s;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.11);
+          transform: scale(1.11);
+  -webkit-transition: all 330ms ease-in;
+  transition: all 330ms ease-in;
 }
 
 .design_section .featured_projects .box-container .box_featured2 {
@@ -788,10 +793,12 @@ header.black nav {
   padding: 0px 300px;
   padding-top: 100px;
   padding-bottom: 100px;
+  font-family: 'ClashGrotesk', sans-serif;
 }
 
 .design_section .join_us h1 {
   color: white;
+  font-size: 35px;
 }
 
 .design_section .join_us p {
@@ -855,10 +862,10 @@ header.black nav {
 
 @media (max-width: 1975px) {
   .design_section .featured_projects .upper_text {
-    padding: 0px 270px;
+    padding: 0px 280px;
   }
   .join_us {
-    padding: 0px 220px !important;
+    padding: 0px 270px !important;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
   }
@@ -866,10 +873,10 @@ header.black nav {
 
 @media (max-width: 1870px) {
   .design_section .featured_projects .upper_text {
-    padding: 0px 240px;
+    padding: 0px 230px;
   }
   .join_us {
-    padding: 0px 190px !important;
+    padding: 0px 230px !important;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
   }
@@ -877,10 +884,10 @@ header.black nav {
 
 @media (max-width: 1755px) {
   .design_section .featured_projects .upper_text {
-    padding: 0px 150px;
+    padding: 0px 170px;
   }
   .join_us {
-    padding: 0px 120px !important;
+    padding: 0px 170px !important;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
   }
@@ -892,6 +899,20 @@ header.black nav {
   }
   .design_section .featured_projects .upper_text {
     padding: 0px 100px;
+  }
+  .join_us {
+    padding: 0px 90px !important;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+}
+
+@media (max-width: 1540px) {
+  .design_section .featured_projects .box-container {
+    padding: 0;
+  }
+  .design_section .featured_projects .upper_text {
+    padding: 0px 70px;
   }
   .join_us {
     padding: 0px 50px !important;
@@ -1107,10 +1128,10 @@ header.black nav {
 }
 
 .button-get-touch:hover {
-  -webkit-transition: all 0.50s;
-  transition: all 0.50s;
-  -webkit-transform: scale(1.12);
-          transform: scale(1.12);
+  -webkit-transition: all 330ms ease-in;
+  transition: all 330ms ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (max-width: 340px) {

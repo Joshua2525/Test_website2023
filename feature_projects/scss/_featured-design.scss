@@ -37,7 +37,7 @@
         .button_social{
             display: flex;
             flex-direction: row;
-            margin-top: 20px;
+            margin-top: 40px;
 
             .button-get-touch{
                 cursor: pointer;
@@ -75,7 +75,7 @@
             }
             .icon:hover{
                 transform: translate(0, -10%) !important;
-                transition: all 0.50s;
+                transition: all 330ms ease-in;
             }
         }
       
@@ -111,6 +111,11 @@
             letter-spacing: 2px;
             margin-bottom: 30px;
 
+            h2{
+                font-size: 35px;
+                font-family: 'ClashGrotesk', sans-serif;
+            }
+
 
             .left-side{
                 display: flex;
@@ -118,7 +123,7 @@
 
                 a{
                     text-decoration: none !important;
-                    color: #ffffff;
+                    color: #4b4b4b;
                     display: flex;
                 }
 
@@ -164,8 +169,9 @@
                 right: 30px;
             }
             .arrow_circle:hover{
-                transition: all 0.50s;
-                transform: scale(1.25);
+                transform: scale(1.11);
+                transition: all 330ms ease-in;
+
             }
             .box_featured2{
                 background-image: url("img/LilLoadedTribute.png") !important;
@@ -274,9 +280,12 @@
         padding: 0px 300px;
         padding-top: 100px;
         padding-bottom: 100px;
+        font-family: 'ClashGrotesk', sans-serif;
+
 
         h1{
             color: rgba(255, 255, 255, 1);
+            font-size: 35px;
         }
         p{
             color:rgba(75, 75, 75, 1);
@@ -337,30 +346,30 @@
 
 @media(max-width:1975px){
     .design_section .featured_projects .upper_text{
-        padding: 0px 270px;
+        padding: 0px 280px;
     }
     .join_us{
-        padding: 0px 220px !important;
+        padding: 0px 270px !important;
         padding-top: 100px !important;
         padding-bottom: 100px !important;
     }
 }
 @media(max-width:1870px){
     .design_section .featured_projects .upper_text{
-        padding: 0px 240px;
+        padding: 0px 230px;
     }
     .join_us{
-        padding: 0px 190px !important;
+        padding: 0px 230px !important;
         padding-top: 100px !important;
         padding-bottom: 100px !important;
     }
 }
 @media(max-width:1755px){
     .design_section .featured_projects .upper_text{
-        padding: 0px 150px;
+        padding: 0px 170px;
     }
     .join_us{
-        padding: 0px 120px !important;
+        padding: 0px 170px !important;
         padding-top: 100px !important;
         padding-bottom: 100px !important;
     }
@@ -377,11 +386,26 @@
         padding: 0px 100px;
     }
     .join_us{
+        padding: 0px 90px !important;
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+}
+
+@media(max-width:1540px){
+    .design_section .featured_projects .box-container{
+        padding: 0;
+    }
+    .design_section .featured_projects .upper_text{
+        padding: 0px 70px;
+    }
+    .join_us{
         padding: 0px 50px !important;
         padding-top: 100px !important;
         padding-bottom: 100px !important;
     }
 }
+
 
 @media(max-width:1460px){
     .design_section{
@@ -604,8 +628,8 @@
 }
 
 .button-get-touch:hover{
-    transition: all 0.50s;
-    transform: scale(1.12);
+    transition: all 330ms ease-in;
+    transform: scale(1.10);
 }
 
 @media(max-width:340px){
