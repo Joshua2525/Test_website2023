@@ -757,6 +757,9 @@ header.black nav {
 }
 
 .design_section .featured_projects .box-container .box_featured4:hover {
+  background-image: url("img/investingLandingPage2.png") !important;
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
   background-color: rgba(119, 119, 119, 0.445);
 }
 
