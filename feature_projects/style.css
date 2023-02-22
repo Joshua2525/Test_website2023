@@ -190,7 +190,7 @@ header.black nav {
   background: rgba(15, 15, 15, 0.713);
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
-  min-height: 60px;
+  min-height: 72px;
   -webkit-transition: all .30s ease-in-out;
   transition: all .30s ease-in-out;
 }
