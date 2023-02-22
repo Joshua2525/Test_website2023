@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--AOS ANIMATION LINK-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--NAVBAR-SECTION -->
+    <header>
+        <div class="limiter">
+            <nav class="navbar">
+              <a href="#"><img class="nav-logo1" src="img/Vector.png" alt=""></a>
+
+
+                <ul class="navlinks" id="links">
+                  <a href="#"><img class="logo-nav" src="img/Vector.png" alt=""></a>
+                    
+                    <div class="center">
+                        <li class="navitems"><a href="#home" class="itemlinks">Portfolio</a></li>
+                        <li class="navitems"><a href="#services" class="itemlinks">Store</a></li>
+                        <div class="about-nav"><li class="navitems"><a href="#about" class="itemlinks">Contact</a></li></div>
+                    </div>
+
+                    <div class="message-left">
+                        <li class="navitems message"><a href="" class="itemlinks">Message me</a></li>
+                    </div>
+                    
+                </ul>
+
+                <div id="burger">
+                    <div class="burgerlines"></div>
+                    <div class="burgerlines"></div>
+                    <div class="burgerlines"></div>
+                </div>
+            </nav>
+        </div>
+      </header>
+    
+
+ <div class="design_section">
+
+    <div class="top_class" data-aos="zoom-in" data-aos-duration="1000">
+        <h3>VISUALS BY HYVE</h3>
+        <h1 class="title">Freelancing in design since ‘20</h1>
+
+        <div class="list">
+            <p>Web Design</p>
+            <p class="mid_list"> • Cover/Music Graphics</p>
+            <p> • Advertising Visuals</p>
+        </div>
+
+        <div class="button_social">
+                <a href="#">
+                    <button class="button-get-touch">Get in touch
+                        <img class="arrow-right" src="img/Arrow-Right.png" alt="">
+                    </button>
+                </a>
+        
+
+            <div class="social_media">
+                <div class="icon">
+                    <a  href=""><img src="img/DiscordBtn.png" alt=""></a>
+                </div>
+                    
+                <div class="icon">
+                    <a  href=""><img src="img/InstagramBtn.png" alt=""></a>
+                </div>
+
+                <div class="icon" >
+                    <a href=""><img src="img/EmailBtn.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="featured_projects">
+        <div class="upper_text">
+            <h2>Featured Project</h2>
+            <div class="left-side">
+                <a href="#">
+                    <img src="img/ArrowGray.png" alt="">
+                    <p class="view_proj">View all project</p>
+                </a>
+
+
+            </div>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box_featured1" data-aos="fade-down" data-aos-delay="100">
+                <h1>Crypto Landing Page</h1>
+                <p>Project details</p>
+   
+                <a href="">
+                    <img class="arrow_circle" src="img/ForwardTopLeftCard.png" alt="">
+                </a>
+
+            </div>
+    
+            <div class="box_featured2" data-aos="fade-down" data-aos-delay="250">
+                <h1>Crypto Landing Page</h1>
+                <p>Project details</p>
+   
+                <a href="">
+                    <img class="arrow_circle" src="img/ForwardTopLeftCard.png" alt="">
+                </a>
+
+            </div>
+    
+            <div class="box_featured3" data-aos="fade-down" data-aos-delay="400">
+                <h1>Crypto Landing Page</h1>
+                <p>Project details</p>
+   
+                <a href="">
+                    <img class="arrow_circle" src="img/ForwardTopLeftCard.png" alt="">
+                </a>
+
+            </div>
+    
+    
+            <div class="box_featured4" data-aos="fade-down" data-aos-delay="600">
+                <h1>Crypto Landing Page</h1>
+                <p>Project details</p>
+   
+                <a href="">
+                    <img class="arrow_circle" src="img/ForwardTopLeftCard.png" alt="">
+                </a>
+
+            </div>
+    
+            <div class="box_featured5" data-aos="fade-down" data-aos-delay="800">
+                <h1>Crypto Landing Page</h1>
+                <p>Project details</p>
+   
+                <a href="">
+                    <img class="arrow_circle" src="img/ForwardTopLeftCard.png" alt="">
+                </a>
+
+            </div>
+    
+            <div class="box_featured6" data-aos="fade-down" data-aos-delay="1000">
+                <h1>Crypto Landing Page</h1>
+                <p>Project details</p>
+    
+                <a href="">
+                    <img class="arrow_circle" src="img/ForwardTopLeftCard.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="join_us" data-aos="fade-right" data-aos-duration="1000">
+        <h1>Interested in working together?</h1>
+        <p>Contact me for commissions, collaborations or any remaining questions.</p>
+        <a href="#">
+            <button class="button-get-touch">Get in touch
+                <img class="arrow-right" src="img/Arrow-Right.png" alt="">
+            </button>
+        </a>
+
+    </div>
+
+
+</div>
+
+
+        <!--MENUBAR SCRIPT-->
+
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+        crossorigin="anonymous"></script>
+    
+        <script>
+            const burger = document.getElementById('burger');
+            const links = document.getElementById('links');
+    
+            burger.addEventListener('click', () => {
+                links.classList.toggle('active');
+            })
+    
+            $("#links").click(() => {
+                links.classList.remove('active');
+            })
+        </script>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    
+        <script>
+            $(window).scroll(function(){
+                if($(window).scrollTop()){
+                    $("header").addClass("black");
+                }
+                else{
+                    $("header").removeClass("black");
+                }
+            });
+        </script>
+
+    <!--AOS ANIMATION SCRIPT-->
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+     crossorigin="anonymous"></script>
+
+         <!-- ANIMATION -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
