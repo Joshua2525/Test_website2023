@@ -185,7 +185,7 @@ nav {
 }
 
 header.black nav {
-  background: black;
+  background: rgba(15, 15, 15, 0.713);
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
   min-height: 60px;
@@ -736,14 +736,23 @@ header.black nav {
 }
 
 .design_section .featured_projects .box-container .box_featured1:hover {
+  background-image: url("img/EasyVault_Landingpage2.png") !important;
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
   background-color: rgba(119, 119, 119, 0.445);
 }
 
 .design_section .featured_projects .box-container .box_featured2:hover {
   background-color: rgba(119, 119, 119, 0.445);
+  background-image: url("img/LilLoadedTribute2.png") !important;
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
 }
 
 .design_section .featured_projects .box-container .box_featured3:hover {
+  background-image: url("img/LilLoaded2.png") !important;
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
   background-color: rgba(119, 119, 119, 0.445);
 }
 
@@ -752,10 +761,16 @@ header.black nav {
 }
 
 .design_section .featured_projects .box-container .box_featured5:hover {
+  background-image: url("img/FakeLove_CoverArt2.png") !important;
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
   background-color: rgba(119, 119, 119, 0.445);
 }
 
 .design_section .featured_projects .box-container .box_featured6:hover {
+  background-image: url("img/SpotigradeBanner2.png") !important;
+  -webkit-transition: all 0.50s;
+  transition: all 0.50s;
   background-color: rgba(119, 119, 119, 0.445);
 }
 
