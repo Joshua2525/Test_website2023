@@ -73,6 +73,8 @@ nav{
     font-family: 'ClashGrotesk', sans-serif;
     text-decoration: none;
     font-weight: 500;
+    transition: all 0.5s ease-in-out !important;
+
  }
  
  .dropmenu {
@@ -145,6 +147,8 @@ nav{
     height: 50px;
     display: flex;
     align-items: center;
+    transition: all 0.5s ease-in-out !important;
+
 
     a{
         font-weight: 400;
