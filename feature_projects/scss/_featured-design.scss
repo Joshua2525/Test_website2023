@@ -72,6 +72,12 @@
                     img{
                         width: 50px;
                     }
+                    .disc{
+                        z-index: 2;
+                    }
+                    .insta{
+                        z-index: 1;
+                    }
             }
             .icon:hover{
                 transform: translate(0, -10%) !important;

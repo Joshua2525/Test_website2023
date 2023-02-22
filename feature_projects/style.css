@@ -538,6 +538,14 @@ header.black nav {
   width: 50px;
 }
 
+.design_section .top_class .button_social .social_media .disc {
+  z-index: 2;
+}
+
+.design_section .top_class .button_social .social_media .insta {
+  z-index: 1;
+}
+
 .design_section .top_class .button_social .icon:hover {
   -webkit-transform: translate(0, -10%) !important;
           transform: translate(0, -10%) !important;
