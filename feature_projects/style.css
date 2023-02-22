@@ -999,7 +999,8 @@ header.black nav {
 
 @media (max-width: 415px) {
   .top_class .title {
-    font-size: 25px !important;
+    font-size: 22px !important;
+    text-align: center !important;
   }
   .top_class h3 {
     font-size: 12px !important;
