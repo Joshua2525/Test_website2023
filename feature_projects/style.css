@@ -512,6 +512,8 @@ header.black nav {
   font-size: 20px;
   font-family: 'ClashGrotesk', sans-serif;
   color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 .design_section .top_class .button_social .button-get-touch img {
@@ -531,6 +533,8 @@ header.black nav {
 }
 
 .design_section .top_class .button_social .social_media .icon {
+  -webkit-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
   margin-left: -20px;
 }
 
@@ -672,6 +676,8 @@ header.black nav {
   width: 40px;
   bottom: 20px;
   right: 30px;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 .design_section .featured_projects .box-container .arrow_circle:hover {
@@ -843,6 +849,8 @@ header.black nav {
   font-size: 20px;
   font-family: 'ClashGrotesk', sans-serif;
   color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 .design_section .join_us .button-get-touch img {
@@ -1136,8 +1144,8 @@ header.black nav {
 }
 
 .button-get-touch:hover {
-  -webkit-transition: all 330ms ease-in;
-  transition: all 330ms ease-in;
+  -webkit-transition: all 330ms ease-in-out;
+  transition: all 330ms ease-in-out;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
