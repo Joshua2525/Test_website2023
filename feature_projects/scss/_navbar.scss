@@ -98,7 +98,7 @@ nav{
  
  .logo-nav{
    margin-top: 5px;
-
+   margin-left: 40px;
  }
  
  #burger {
@@ -131,8 +131,8 @@ nav{
 }
 
  .center{
-   margin-left: 450px;
-   margin-right: 410px;
+   margin-left: 500px;
+   margin-right: 380px;
     display: flex;
  }
 
@@ -143,7 +143,7 @@ nav{
     color: #fff !important;
     width: 200px !important;
     text-align: center !important;
-    padding-left: 47px;
+    padding-left: 44px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -162,9 +162,13 @@ nav{
 
  @media (max-width: 1860px){
     .center{
-         margin-left: 470px;
-         margin-right: 400px;
+         margin-left: 520px;
+         margin-right: 370px;
      }
+     .logo-nav{
+      margin-top: 5px;
+      margin-left: 20px;
+    }
     
  }
 

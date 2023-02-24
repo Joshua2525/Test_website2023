@@ -163,6 +163,7 @@ nav {
 
 .logo-nav {
   margin-top: 5px;
+  margin-left: 40px;
 }
 
 #burger {
@@ -196,8 +197,8 @@ header.black nav {
 }
 
 .center {
-  margin-left: 450px;
-  margin-right: 410px;
+  margin-left: 500px;
+  margin-right: 380px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,7 +211,7 @@ header.black nav {
   color: #fff !important;
   width: 200px !important;
   text-align: center !important;
-  padding-left: 47px;
+  padding-left: 44px;
   height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -235,8 +236,12 @@ header.black nav {
 
 @media (max-width: 1860px) {
   .center {
-    margin-left: 470px;
-    margin-right: 400px;
+    margin-left: 520px;
+    margin-right: 370px;
+  }
+  .logo-nav {
+    margin-top: 5px;
+    margin-left: 20px;
   }
 }
 
